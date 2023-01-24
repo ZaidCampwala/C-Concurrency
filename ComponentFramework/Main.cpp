@@ -1,0 +1,31 @@
+#define _CRTDBG_MAP_ALLOC  
+#include <stdlib.h>  
+#include <crtdbg.h>
+#include <memory>
+#include <chrono>
+#include <string>
+#include "SceneManager.h"
+#include "Debug.h"
+
+
+int main(int argc, char* args[]) {
+	/// Comment out the line below if you really want to make a 64-bit build
+	static_assert(sizeof(void*) == 4, "Are you ready for 64-bit build?");
+
+	Debug::DebugInit("GameEngineLog.txt");
+	
+	{ //
+		// game popped off stack when out of scope
+		// use { } to put in own scope
+		std::unique_ptr<SceneManager> game = std::make_unique<SceneManager>(); 
+		if (game->Initialize("Game Engine", 1280, 720) == true) {
+
+			//game->Run();
+			exit(0);
+		}
+	} //
+
+	/// This writes out memory leaks to the output window not the console window
+	_CrtDumpMemoryLeaks();
+	exit(0);
+}

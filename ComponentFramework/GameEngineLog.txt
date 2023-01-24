@@ -1,0 +1,49 @@
+Sun Jan 22 20:42:48 2023
+[INFO]: Starting the SceneManager
+[INFO]: OpenGL version: 4.6.14742 Compatibility Profile Context 21.20.25.02 27.20.22025.2003
+[INFO]: Graphics card vendor ATI Technologies Inc.
+[INFO]: Graphics card name AMD Radeon(TM) Vega 8 Graphics
+[INFO]: GLSL Version 4.60
+[INFO]: Created Scene2: 
+[INFO]: Loading assets Scene2: 
+[INFO]: Uniforms:
+"projection" loc:-1
+"view" loc:-1
+"position" loc:-1
+"colour" loc:-1
+"modelMatrix" loc:2
+"myTexture" loc:3
+
+[INFO]: Creating values for CameraActor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
+[INFO]: Loading assets for Actor: 
